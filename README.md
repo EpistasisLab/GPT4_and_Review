@@ -8,6 +8,6 @@ This repository has been established to house the supplementary materials associ
    - sex_differences_in_cancer.pdf : reference-based content generation
    - sex_differences_in_cancer_baseline.pdf : baseline content generation
 * **ChatGPT API code**: the source code utilized for interfacing with the ChatGPT API during the study.
-   - code script (remove API key)
+   - chatGPT_review_API.py - This script requires a API key which was obtained with a paid openAI account. Once you provide the API key, you can upload upto 25 PDFs and submit your prompt in the designated line in the code. 
 * **Similarity comparison code**: algorithms developed to compare and contrast the similarity between the generated content and existing literature.
    - compare.py - This Python script was used for comparing the semantic similarity between two sets of sentences. It requires a CSV file where the first column is named Original and the second is named GPT. Under Original, the text from the target section was provided, and the response from GPT was provided under GPT.
